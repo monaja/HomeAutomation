@@ -1,0 +1,25 @@
+UPLOADING PROJECT TO ARDUINO PRO MINI
+
+PIN set ups
+++++++++++++++++++++++++++++++++++++++++++++
++ Arduino Uno 	 +  Arduino Pro Mini	   +
+++++++++++++++++++++++++++++++++++++++++++++
++ 5V 		 +  VCC			   +
+++++++++++++++++++++++++++++++++++++++++++++
++ GND		 +  GND			   +
+++++++++++++++++++++++++++++++++++++++++++++
++ TRX		 + TRX			   + 
+++++++++++++++++++++++++++++++++++++++++++++
++ RX		 + RX			   +
+++++++++++++++++++++++++++++++++++++++++++++
++ RST		 + RST			   +
+++++++++++++++++++++++++++++++++++++++++++++
+
+1. connect pins as above 
+2. remove the atmel chip from arduino uno
+3. IDE configs
+	+ Board: Arduino pro mini 
+	+ Processor: Atmega328p(5v, 16MHx)
+	+ Ubuntu Port: /dev/ttyACM0 (Arduino Uno)
+	+ Programmer: AVR ISP
+4. upload the code.

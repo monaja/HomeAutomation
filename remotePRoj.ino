@@ -36,7 +36,7 @@ void loop() {
     }else{
       Serial.println(results.value,HEX);
     }
-    delay(500);
+    delay(200);
     switchLite.resume();
   }
  
